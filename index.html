@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MeowBot Panel</title>
+    <style>
+        body {
+            background: #0d1117;
+            color: #fff;
+            font-family: Arial;
+            text-align: center;
+            padding-top: 100px;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            background: #5865F2;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>MeowBot Panel</h1>
+    <p>Zaloguj się, aby zarządzać botem</p>
+
+    <button onclick="login()">Zaloguj przez Discord</button>
+
+    <script>
+        function login() {
+            window.location.href = "http://45.93.12.55:3001/auth/login";
+        }
+    </script>
+
+</body>
+</html>
